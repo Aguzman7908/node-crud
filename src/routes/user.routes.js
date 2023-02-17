@@ -1,6 +1,5 @@
 const {Router} = require ('express')
 const router = Router()
-const port = 7000
 const {getUsers, createUser, updateUser, deleteUser} = require ('../controllers/user.controllers')
 
 //READ
